@@ -99,25 +99,25 @@ const updateList = () => {
             <div class="input-field center flow-text valign-wrapper">
               <div class="col s6 m6 l6 center">${list.name}</div>
               <div class="col s2 m2 l2 center">
-                <div
+                <button
                   class="btn-floating btn-small blue"
                   onclick="subCount('${doc.id}')"
                 >
                   <i class="material-icons">${
                     list.count == 0 ? "delete" : "remove"
                   }</i>
-                </div>
+                </button>
               </div>
               <div class="col s2 m2 l2 center card white-text blue">
                 ${list.count}
               </div>
               <div class="col s2 m2 l2 center">
-                <div
+                <button
                   class="btn-floating btn-small  blue"
                   onclick="addCount('${doc.id}')"
                 >
                   <i class="material-icons">add</i>
-                </div>
+                </button>
               </div>
             </div>
           </div>

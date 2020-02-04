@@ -1,19 +1,19 @@
 const version = "v-4";
 
 const assets = [
-  "/index.html",
-  "/favicon.ico",
-  "/manifest.json",
-  "/js/app.js",
-  "/css/app.css",
-  "/images/icons/icon-128x128.png",
-  "/images/icons/icon-144x144.png",
-  "/images/icons/icon-152x152.png",
-  "/images/icons/icon-192x192.png",
-  "/images/icons/icon-384x384.png",
-  "/images/icons/icon-512x512.png",
-  "/images/icons/icon-72x72.png",
-  "/images/icons/icon-96x96.png",
+  "/counter/index.html",
+  "/counter/favicon.ico",
+  "/counter/manifest.json",
+  "/counter/js/app.js",
+  "/counter/css/app.css",
+  "/counter/images/icons/icon-128x128.png",
+  "/counter/images/icons/icon-144x144.png",
+  "/counter/images/icons/icon-152x152.png",
+  "/counter/images/icons/icon-192x192.png",
+  "/counter/images/icons/icon-384x384.png",
+  "/counter/images/icons/icon-512x512.png",
+  "/counter/images/icons/icon-72x72.png",
+  "/counter/images/icons/icon-96x96.png",
   "https://fonts.googleapis.com/icon?family=Material+Icons",
   "https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2"
 ];

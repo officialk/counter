@@ -17,7 +17,9 @@ const db = firebase.firestore();
 window.onload = e => {
   if (mainData.uid != undefined) {
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js");
+      navigator.serviceWorker.register("/counter/sw.js",{
+          scope:"/counter/"
+      });
     }
     initUI();
   } else {

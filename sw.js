@@ -1,4 +1,4 @@
-const version = "v-4";
+const version = "counter-4";
 
 const assets = [
   "/counter/index.html",
